@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var a,b,c,d,e,f;
+        a=parseInt(prompt("enter a 5 digit no."));
+        b=a%10;
+        document.write(b +"<br>");
+        a=parseInt(a/10);
+        c=a%10;
+        document.write(c +"<br>");
+        a=parseInt(a/10);
+        d=a%10;
+        document.write(d +"<br>");
+        a=parseInt(a/10);
+        e=a%10;
+        document.write(e +"<br>"); 
+        a=parseInt(a/10);
+        f=a%10;
+        document.write(f +"<br>");
+
+        document.write("sum of all digits:"+ (b+c+d+e+f));
+       document.write("<br>");
+       document.write("reverse of entered no. is:"+ (b*10000+c*1000+d*100+e*10+f))
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
